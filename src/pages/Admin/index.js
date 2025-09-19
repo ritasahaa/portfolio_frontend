@@ -22,7 +22,7 @@ import { setupBrowserCloseHandler } from "../../utils/sessionUtils";
 import { useAutoLogout } from "../../hooks/useAutoLogout";
 import SessionWarningModal from "../../components/SessionWarningModal";
 import AdminRefreshButton from "../../components/AdminRefreshButton";
-import SessionTimer from "../../components/SessionTimer";
+
 import DataOverview from "../../components/DataOverview";
 import "../../styles/admin.css";
 
@@ -45,7 +45,7 @@ function Admin() {
     const {
         showWarning,
         timeLeft,
-        remainingTime,
+    // remainingTime, // removed unused variable
         remainingSeconds,
         isActive,
         resetSession
