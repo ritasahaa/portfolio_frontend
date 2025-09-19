@@ -201,13 +201,7 @@ function Introduction() {
                         }`}>
                             <h1 className="text-6xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-4">
                                 <span className="bg-gradient-to-r from-secondary via-orange-500 to-tertiary bg-clip-text text-transparent">
-                                    {firstName || 'Your'} 
-                                </span>
-                                <br />
-                                <span className={`${
-                                    isDarkMode ? 'text-white' : 'text-gray-900'
-                                }`}>
-                                    {lastName || 'Name'}
+                                    {firstName || 'Your'} {lastName || 'Name'}
                                 </span>
                             </h1>
                             
